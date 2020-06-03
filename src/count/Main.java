@@ -34,7 +34,7 @@ public class Main
 					wordCount.put(s, 1);
 				}
 
-			
+			// need to do this!
 			// converting into an Array list 
 			System.out.println("\n\n ***   Array list ");
 
@@ -45,7 +45,7 @@ public class Main
 			for (HashMap.Entry e : top)
 			{
 				System.out.println("\n Word: " + e.getKey() + " appears" + e.getValue() +" times.");
-				
+
 			}
 		}	
 	
